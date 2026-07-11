@@ -1,0 +1,9 @@
+#Author: Tithy
+#Date: 2026-07-10
+#Description: BMI calculator in Python.
+
+weight = float(input("Enter your weight in kg: "))
+height = float(input("Enter your height in meters: "))
+
+bmi = weight / (height ** 2)
+print(f"Your BMI is: {bmi:.2f}")
