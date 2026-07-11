@@ -1,6 +1,6 @@
 #Author: Tithy
 #Date: 2026-07-10
-#Description: Implementation os conditional statements.
+#Description: Implementation of conditional statements.
 
 is_hot = input("It's a hot day? (y/n): ")
 
