@@ -1,5 +1,5 @@
 #Author: Tithy
-#Date: 2026-07-10
+#Date: 2026-07-11
 #Description: BMI calculator in Python.
 
 weight = float(input("Enter your weight in kg: "))

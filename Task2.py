@@ -1,5 +1,5 @@
 #Author: Tithy
-#Date: 2026-07-10
+#Date: 2026-07-11
 #Description: Price of a house is $1M. Is the buyer has good credit, they need to put down 10%, otherwise the need to put down 20%. Print the down payment.
 
 house_price = 1000000

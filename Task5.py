@@ -1,5 +1,5 @@
 #Author: Tithy
-#Date: 2026-07-10
+#Date: 2026-07-11
 #Description: Average of five numbers taking inputs.
 
 num1 = int(input("Enter first number: "))

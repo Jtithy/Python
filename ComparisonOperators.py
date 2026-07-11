@@ -1,5 +1,5 @@
 #Author: Tithy
-#Date: 2026-07-10
+#Date: 2026-07-11
 #Description: Implementing comparison operators in Python.
 
 temperature = float(input("Enter today's temperature in celsius: "))
