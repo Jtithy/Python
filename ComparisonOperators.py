@@ -9,7 +9,10 @@ if temperature < 5:
 elif temperature > 5 and temperature < 15:
     print("It's a cold day.")
 elif temperature > 15 and temperature < 27:
-    print("It's a warm day.")
+    if temperature == 25:
+        print("It's a perfect day.")
+    else:
+        print("It's a warm day.")
 elif temperature > 27 and temperature < 40:
     print("It's a hot day.")
 elif temperature > 40:
