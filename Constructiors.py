@@ -1,6 +1,8 @@
 # Author: Tithy
 # Date: 2026-07-14
 # Description: Constructors in Python.
+#Constructors are special methods that are automatically called when an object is created. In Python, the constructor method is defined using the __init__() method. It allows you to initialize the attributes of an object when it is created.
+
 
 class Point:
     def __init__(self, x, y):
