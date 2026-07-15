@@ -1,6 +1,6 @@
 # Author: Tithy
 # Date: 2026-07-15
-# Description: 
+# Description: Implementing a module in Python.
 # Module - A file containg code that can be imported and used in other Python code.
 
 # Importing the whole converter module
