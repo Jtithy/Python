@@ -47,11 +47,17 @@ while True:
             result = mul(num1, num2)
             print(f"The multiplication of {num1} and {num2} is: {result}")
         elif choice == 4:
-            result = div(num1, num2)
-            print(f"The dividion of {num1} and {num2} is: {result}")
+            if num2 == 0:
+                print("Error. Division by zero isn't allowed.")
+            else:
+                result = div(num1, num2)
+                print(f"The division of {num1} and {num2} is: {result}")
         elif choice == 5:
-            result = mod(num1, num2)
-            print(f"The remainder of {num1} and {num2} is: {result}")
+            if num2 == 0:
+                print("Error. Modulus by zero isn't allowed.")
+            else:
+                result = mod(num1, num2)
+                print(f"The remainder of {num1} and {num2} is: {result}")
         elif choice == 6:
             result = power(num1, num2)
             print(f"The power of {num1} and {num2} is: {result}")
@@ -62,5 +68,5 @@ while True:
             print("Invalid choice. Try again.")
     
         
-
+print("Thanks for using the calculator. Have a great day!")
     
