@@ -4,9 +4,12 @@
 
 
 import MyModule
+import sys
+
 courses = ['Math', 'Science', 'Physics', 'History', 'English']
 print("Courses list: ", courses)
 
 option = input('Select a course from the list: ')
 index = MyModule.find_index(courses, option)
 print(index)
+print("Module Path: ", sys.path)
