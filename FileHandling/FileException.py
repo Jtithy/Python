@@ -5,6 +5,10 @@
 
 try:
     f = open("d:\\03_AllAboutPython\\Python\\FileHandling\\text.txt")
+    if f.name == "text.txt":
+        raise Exception
+    else:
+        print("File opened successfully.")
 except FileNotFoundError as e:
     print(e)
 except Exception as e:
